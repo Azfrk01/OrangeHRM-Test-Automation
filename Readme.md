@@ -26,34 +26,32 @@ I intentionally kept the stack *simple and professional*:
 - *Git + GitHub*
 
 ## 3️⃣ Project Structure
-
-Here’s how I organized the project:
-AutomationFramework/
-├── src/main/java
-│ ├── base
-│ │ └── BaseTest.java
-│ ├── pages
-│ │ ├── LoginPage.java
-│ │ ├── DashboardPage.java
-│ │ └── PIMPage.java
-│ ├── utils
-│ │ ├── ConfigReader.java
-│ │ ├── WaitUtils.java
-│ │ └── ScreenshotUtil.java
-│
-├── src/test/java
-│ └── tests
-│ ├── LoginTest.java
-│ ├── DashboardTest.java
-│ └── PIMTest.java
-│
-├── src/test/resources
-│ ├── config.properties
-│ └── testng.xml
-│
-├── pom.xml
-└── README.md
-
+```AutomationFramework/
+ ├── src/main/java
+ │    ├── base
+ │    │    └── BaseTest.java
+ │    ├── pages
+ │    │    ├── LoginPage.java
+ │    │    ├── DashboardPage.java
+ │    │    └── PIMPage.java
+ │    ├── utils
+ │    │    ├── ConfigReader.java
+ │    │    ├── WaitUtils.java
+ │    │    └── ScreenshotUtil.java
+ │
+ ├── src/test/java
+ │    └── tests
+ │         ├── LoginTest.java
+ │         ├── DashboardTest.java
+ │         └── PIMTest.java
+ │
+ ├── src/test/resources
+ │    ├── config.properties
+ │    └── testng.xml
+ │
+ ├── pom.xml
+ └── README.md
+```
 > I followed *modular design principles* to keep my framework maintainable and clean.
 
 ## 4️⃣ Test Scenarios I Implemented
@@ -117,3 +115,4 @@ Day	Task
 5	README + GitHub push
 
 I completed this in 5 days, staying focused on stability and maintainability.
+
